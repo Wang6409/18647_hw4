@@ -1,0 +1,13 @@
+[
+  {
+    "part": 1,
+    "method": "brute_force_permutations",
+    "n": 4,
+    "target": 34,
+    "solution": null,
+    "elapsed_seconds": 1.0000024000182748,
+    "permutations_checked": 680543,
+    "total_permutations": 20922789888000,
+    "timed_out": true
+  }
+]

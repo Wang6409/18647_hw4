@@ -1,0 +1,5 @@
+part,method,n,target,elapsed_seconds,permutations_checked,total_permutations,timed_out
+1,brute_force_permutations,1,1,5.900044925510883e-06,1,1,False
+1,brute_force_permutations,3,15,0.0737066000001505,69075,362880,False
+1,brute_force_permutations,2,5,6.480002775788307e-05,24,24,False
+1,brute_force_permutations,4,34,1.0000024000182748,680543,20922789888000,True

@@ -1,0 +1,5 @@
+part,method,n,target,elapsed_seconds,status,timed_out,solver_workers,conflicts,branches,wall_time
+3,or_tools_cp_sat,1,1,0.007980700000189245,OPTIMAL,False,1,0,0,0.0044545
+3,or_tools_cp_sat,2,5,0.002696300041861832,INFEASIBLE,False,1,0,0,0.0005886
+3,or_tools_cp_sat,3,15,0.012537100003100932,OPTIMAL,False,4,0,0,0.0100602
+3,or_tools_cp_sat,4,34,0.0625113999703899,OPTIMAL,False,4,121,3227,0.059323600000000004
