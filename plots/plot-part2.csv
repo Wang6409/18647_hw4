@@ -1,0 +1,6 @@
+part,method,n,target,elapsed_seconds,nodes,peak_traced_bytes,workers,timed_out,first_rows_tested
+2,parallel_row_major_backtracking,1,1,6.00004568696022e-07,1,0,16,False,1
+2,parallel_row_major_backtracking,2,5,0.35026530001778156,6,656,2,False,4
+2,parallel_row_major_backtracking,3,15,0.3458966000471264,8290,2352,4,False,48
+2,parallel_row_major_backtracking,3,15,0.40126860002055764,1454,2352,4,False,8
+2,parallel_row_major_backtracking,4,34,10.411896600038745,8444910,2536,4,True,4

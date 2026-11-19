@@ -1,0 +1,41 @@
+[
+  {
+    "part": 3,
+    "method": "or_tools_cp_sat",
+    "n": 4,
+    "target": 34,
+    "solution": [
+      [
+        3,
+        16,
+        6,
+        9
+      ],
+      [
+        12,
+        13,
+        7,
+        2
+      ],
+      [
+        5,
+        4,
+        10,
+        15
+      ],
+      [
+        14,
+        1,
+        11,
+        8
+      ]
+    ],
+    "elapsed_seconds": 0.0625113999703899,
+    "status": "OPTIMAL",
+    "timed_out": false,
+    "solver_workers": 4,
+    "conflicts": 121,
+    "branches": 3227,
+    "wall_time": 0.059323600000000004
+  }
+]
