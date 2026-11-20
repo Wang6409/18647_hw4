@@ -8,21 +8,30 @@ A natural formulation uses variables `x[i][j] ∈ {1,...,n²}` for each cell, an
 
 The raw search space is `(n²)!` for brute force. Backtracking and CP/SMT shrink it by rejecting partial assignments as soon as a row, column, or diagonal cannot reach `M`, and by enforcing AllDifferent early. Additional reductions include symmetry breaking, partial-sum bounds, and enforcing the magic constant. I expect `n=3,4` to be easy and `n=5` or maybe `n=6` feasible for smarter methods, while brute force will already be clearly impractical for `n ≥ 4` or `5`.
 
-## Code Files
+## Project Structure
 
-| File | One-sentence description |
-|---|---|
-| `part1/src/magic_bf.cpp` | Enumerates permutations of `1…n²` in lexicographic order, fills the square, checks rows/columns/diagonals, and supports `first`, `full`, and `timed` modes with OpenMP. |
-| `part1/src/Makefile` | Builds `magic_bf` with `-O3 -fopenmp`. |
-| `part1/src/run_experiments.sh` | Runs all Part 1 measurements and invokes the fitting script. |
-| `part1/src/fit_model.py` | Fits `T = t0 + P/R`, extrapolates brute-force runtime to larger `n`, and produces a report and plots. |
-| `part2/src/backtrack_magic.py` | Recursive backtracking solver with partial-sum pruning, direct completion of last row/column/diagonal cells, and process-pool parallelism. |
-| `part2/src/run_experiments.sh` | Runs Part 2 experiments over multiple worker counts and random seeds, then invokes fitting. |
-| `part2/src/fit_part2.py` | Fits an exponential model for Part 2, reports speedup/memory, and predicts the largest feasible `n`. |
-| `part3/src/cp_sat_magic.py` | Models the problem with OR-Tools CP-SAT using integer variables, AllDifferent, sum constraints, and corner symmetry breaking. |
-| `part3/src/requirements.txt` | Lists the Python dependency `ortools` for Part 3. |
-| `part3/src/run_experiments.sh` | Runs CP-SAT experiments for `n=1…20`, repeats each size three times, and writes CSV results. |
-| `plots/compare_plots.py` | Reads the three CSV files and plots first-solution time versus `n` for all three methods on one log-scale figure. |
+```text
+pyproject.toml              # Project metadata and Python dependencies
+part1/
+  src/
+    magic_bf.cpp            # Brute-force solver (C++/OpenMP)
+    Makefile
+    run_experiments.sh
+    fit_model.py
+part2/
+  src/
+    backtrack_magic.py      # Parallel backtracking solver
+    run_experiments.sh
+    fit_part2.py
+part3/
+  src/
+    cp_sat_magic.py         # OR-Tools CP-SAT solver
+    requirements.txt
+    run_experiments.sh
+plots/
+  make_plots.py             # Generates plots from experiment CSV files
+  plot-*.*                   # Experiment result tables and generated figures
+```
 
 ## Running the Experiments (8-core machine)
 
@@ -69,5 +78,5 @@ python cp_sat_magic.py --n 6
 
 ### Part 4: Plots and Analysis
 ```bash
-cd /plots
+cd plots
 python make_plots.py
