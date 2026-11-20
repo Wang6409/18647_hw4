@@ -1,0 +1,416 @@
+E:\CMU\3rd_semester\18647\HWs\647_hw4\part2\src>bash ./run_experiments.sh 8 120 5
+n=1 workers=1 backend=serial status=found time=0.0000s nodes=1 (3.88e+04/s) tasks=1 rss_parent=14MB rss_worker_max=0MB verified=True
+    1
+n=2 workers=1 backend=serial status=no_solution time=0.0001s nodes=9 (1.6e+05/s) tasks=1 rss_parent=14MB rss_worker_max=0MB verified=False
+n=3 workers=1 backend=serial status=found time=0.0002s nodes=39 (2.08e+05/s) tasks=1 rss_parent=14MB rss_worker_max=0MB verified=True
+    6   7   2
+    1   5   9
+    8   3   4
+n=4 workers=1 backend=serial status=found time=0.0201s nodes=10664 (5.31e+05/s) tasks=1 rss_parent=14MB rss_worker_max=0MB verified=True
+    3   4  13  14
+    6  16   1  11
+   15   9   8   2
+   10   5  12   7
+n=5 workers=1 backend=serial status=found time=1.1000s nodes=484174 (4.4e+05/s) tasks=1 rss_parent=14MB rss_worker_max=0MB verified=True
+   11   5  24   2  23
+    4  13  10  20  18
+   19  21   7  15   3
+   17   1  16  22   9
+   14  25   8   6  12
+n=6 workers=1 backend=serial status=timeout time=120.0026s nodes=38746112 (3.23e+05/s) tasks=1 rss_parent=14MB rss_worker_max=0MB verified=False
+  timeout reached; larger sizes will not be attempted
+n=1 workers=1 backend=serial status=found time=0.0000s nodes=1 (3.78e+04/s) tasks=1 rss_parent=14MB rss_worker_max=0MB verified=True
+    1
+n=2 workers=1 backend=serial status=no_solution time=0.0001s nodes=9 (1.5e+05/s) tasks=1 rss_parent=14MB rss_worker_max=0MB verified=False
+n=3 workers=1 backend=serial status=found time=0.0001s nodes=13 (1.49e+05/s) tasks=1 rss_parent=14MB rss_worker_max=0MB verified=True
+    4   9   2
+    3   5   7
+    8   1   6
+n=4 workers=1 backend=serial status=found time=0.0006s nodes=256 (4.41e+05/s) tasks=1 rss_parent=14MB rss_worker_max=0MB verified=True
+   13  16   2   3
+    1   4  14  15
+    8   5  11  10
+   12   9   7   6
+n=5 workers=1 backend=serial status=found time=0.4037s nodes=142864 (3.54e+05/s) tasks=1 rss_parent=14MB rss_worker_max=0MB verified=True
+    4  16   3  25  17
+   20  15  19  10   1
+   21   5  14  13  12
+   18  22   6   8  11
+    2   7  23   9  24
+n=6 workers=1 backend=serial status=timeout time=120.0039s nodes=42031104 (3.5e+05/s) tasks=1 rss_parent=14MB rss_worker_max=0MB verified=False
+  timeout reached; larger sizes will not be attempted
+n=1 workers=1 backend=serial status=found time=0.0000s nodes=1 (3.68e+04/s) tasks=1 rss_parent=14MB rss_worker_max=0MB verified=True
+    1
+n=2 workers=1 backend=serial status=no_solution time=0.0001s nodes=9 (1.66e+05/s) tasks=1 rss_parent=14MB rss_worker_max=0MB verified=False
+n=3 workers=1 backend=serial status=found time=0.0002s nodes=19 (1.23e+05/s) tasks=1 rss_parent=14MB rss_worker_max=0MB verified=True
+    2   7   6
+    9   5   1
+    4   3   8
+n=4 workers=1 backend=serial status=found time=0.0293s nodes=14914 (5.09e+05/s) tasks=1 rss_parent=14MB rss_worker_max=0MB verified=True
+    5  12   3  14
+   15   2   9   8
+   10   7  16   1
+    4  13   6  11
+n=5 workers=1 backend=serial status=found time=86.2418s nodes=36339973 (4.21e+05/s) tasks=1 rss_parent=14MB rss_worker_max=0MB verified=True
+    7  21  11  17   9
+    6  19  14   8  18
+   25  10  13   1  16
+    4  12   5  24  20
+   23   3  22  15   2
+n=6 workers=1 backend=serial status=timeout time=120.0033s nodes=24180736 (2.02e+05/s) tasks=1 rss_parent=14MB rss_worker_max=0MB verified=False
+  timeout reached; larger sizes will not be attempted
+n=1 workers=1 backend=serial status=found time=0.0000s nodes=1 (3.71e+04/s) tasks=1 rss_parent=14MB rss_worker_max=0MB verified=True
+    1
+n=2 workers=1 backend=serial status=no_solution time=0.0001s nodes=9 (8e+04/s) tasks=1 rss_parent=14MB rss_worker_max=0MB verified=False
+n=3 workers=1 backend=serial status=found time=0.0001s nodes=26 (2.27e+05/s) tasks=1 rss_parent=14MB rss_worker_max=0MB verified=True
+    2   9   4
+    7   5   3
+    6   1   8
+n=4 workers=1 backend=serial status=found time=0.1204s nodes=53008 (4.4e+05/s) tasks=1 rss_parent=14MB rss_worker_max=0MB verified=True
+   11   9   8   6
+    7   5  10  12
+    2   4  15  13
+   14  16   1   3
+n=5 workers=1 backend=serial status=timeout time=120.0020s nodes=31729664 (2.64e+05/s) tasks=1 rss_parent=14MB rss_worker_max=0MB verified=False
+  timeout reached; larger sizes will not be attempted
+n=1 workers=1 backend=serial status=found time=0.0000s nodes=1 (4.03e+04/s) tasks=1 rss_parent=14MB rss_worker_max=0MB verified=True
+    1
+n=2 workers=1 backend=serial status=no_solution time=0.0001s nodes=9 (1.68e+05/s) tasks=1 rss_parent=14MB rss_worker_max=0MB verified=False
+n=3 workers=1 backend=serial status=found time=0.0002s nodes=95 (4.13e+05/s) tasks=1 rss_parent=14MB rss_worker_max=0MB verified=True
+    4   9   2
+    3   5   7
+    8   1   6
+n=4 workers=1 backend=serial status=found time=0.0364s nodes=16398 (4.5e+05/s) tasks=1 rss_parent=14MB rss_worker_max=0MB verified=True
+    3   5  16  10
+   14  12   1   7
+    9  15   6   4
+    8   2  11  13
+n=5 workers=1 backend=serial status=timeout time=120.0010s nodes=35504128 (2.96e+05/s) tasks=1 rss_parent=14MB rss_worker_max=0MB verified=False
+  timeout reached; larger sizes will not be attempted
+n=1 workers=2 backend=process status=found time=0.0093s nodes=1 (107/s) tasks=1 rss_parent=14MB rss_worker_max=11MB verified=True
+    1
+n=2 workers=2 backend=process status=no_solution time=0.0008s nodes=15 (1.87e+04/s) tasks=0 rss_parent=14MB rss_worker_max=11MB verified=False
+n=3 workers=2 backend=process status=found time=0.0109s nodes=84 (7.72e+03/s) tasks=56 rss_parent=14MB rss_worker_max=11MB verified=True
+    2   7   6
+    9   5   1
+    4   3   8
+n=4 workers=2 backend=process status=found time=0.0213s nodes=13182 (6.18e+05/s) tasks=240 rss_parent=15MB rss_worker_max=11MB verified=True
+    1   3  14  16
+   10  13   4   7
+   15   6  11   2
+    8  12   5   9
+n=5 workers=2 backend=process status=found time=0.2665s nodes=157755 (5.92e+05/s) tasks=600 rss_parent=16MB rss_worker_max=11MB verified=True
+    1   2  21  17  24
+   12  19   4   8  22
+   23  18  11  10   3
+   13   6  14  25   7
+   16  20  15   5   9
+n=6 workers=2 backend=process status=timeout time=120.0138s nodes=39747585 (3.31e+05/s) tasks=36 rss_parent=16MB rss_worker_max=12MB verified=False
+  timeout reached; larger sizes will not be attempted
+n=1 workers=2 backend=process status=found time=0.0061s nodes=1 (164/s) tasks=1 rss_parent=14MB rss_worker_max=10MB verified=True
+    1
+n=2 workers=2 backend=process status=no_solution time=0.0008s nodes=15 (1.92e+04/s) tasks=0 rss_parent=14MB rss_worker_max=10MB verified=False
+n=3 workers=2 backend=process status=found time=0.0138s nodes=116 (8.42e+03/s) tasks=56 rss_parent=14MB rss_worker_max=11MB verified=True
+    2   7   6
+    9   5   1
+    4   3   8
+n=4 workers=2 backend=process status=found time=0.0199s nodes=12032 (6.04e+05/s) tasks=240 rss_parent=15MB rss_worker_max=11MB verified=True
+    1   3  14  16
+   12  13   4   5
+   15   8   9   2
+    6  10   7  11
+n=5 workers=2 backend=process status=timeout time=120.0221s nodes=54026267 (4.5e+05/s) tasks=600 rss_parent=16MB rss_worker_max=11MB verified=False
+  timeout reached; larger sizes will not be attempted
+n=1 workers=2 backend=process status=found time=0.0060s nodes=1 (167/s) tasks=1 rss_parent=14MB rss_worker_max=11MB verified=True
+    1
+n=2 workers=2 backend=process status=no_solution time=0.0007s nodes=15 (2.04e+04/s) tasks=0 rss_parent=14MB rss_worker_max=11MB verified=False
+n=3 workers=2 backend=process status=found time=0.0160s nodes=118 (7.38e+03/s) tasks=56 rss_parent=14MB rss_worker_max=11MB verified=True
+    2   9   4
+    7   5   3
+    6   1   8
+n=4 workers=2 backend=process status=found time=0.0317s nodes=21076 (6.65e+05/s) tasks=240 rss_parent=15MB rss_worker_max=11MB verified=True
+    1   3  14  16
+   10  13   4   7
+   15   6  11   2
+    8  12   5   9
+n=5 workers=2 backend=process status=found time=73.5618s nodes=30141683 (4.1e+05/s) tasks=600 rss_parent=16MB rss_worker_max=11MB verified=True
+    1   3  25  19  17
+   11  20  10   6  18
+   22   5  13   4  21
+   16  14   9  24   2
+   15  23   8  12   7
+n=6 workers=2 backend=process status=timeout time=120.0161s nodes=75444225 (6.29e+05/s) tasks=36 rss_parent=16MB rss_worker_max=12MB verified=False
+  timeout reached; larger sizes will not be attempted
+n=1 workers=2 backend=process status=found time=0.0058s nodes=1 (171/s) tasks=1 rss_parent=14MB rss_worker_max=11MB verified=True
+    1
+n=2 workers=2 backend=process status=no_solution time=0.0006s nodes=15 (2.5e+04/s) tasks=0 rss_parent=14MB rss_worker_max=11MB verified=False
+n=3 workers=2 backend=process status=found time=0.0121s nodes=94 (7.77e+03/s) tasks=56 rss_parent=14MB rss_worker_max=11MB verified=True
+    2   7   6
+    9   5   1
+    4   3   8
+n=4 workers=2 backend=process status=found time=0.0426s nodes=36850 (8.65e+05/s) tasks=240 rss_parent=15MB rss_worker_max=11MB verified=True
+    1   3  14  16
+   12  13   4   5
+   15   8   9   2
+    6  10   7  11
+n=5 workers=2 backend=process status=found time=60.3926s nodes=25520826 (4.23e+05/s) tasks=600 rss_parent=16MB rss_worker_max=11MB verified=True
+    1   2  25  19  18
+   11  20  21   6   7
+   24  16   4  13   8
+   14  22   3  17   9
+   15   5  12  10  23
+n=6 workers=2 backend=process status=timeout time=120.0185s nodes=38950913 (3.25e+05/s) tasks=36 rss_parent=16MB rss_worker_max=12MB verified=False
+  timeout reached; larger sizes will not be attempted
+n=1 workers=2 backend=process status=found time=0.0058s nodes=1 (172/s) tasks=1 rss_parent=14MB rss_worker_max=10MB verified=True
+    1
+n=2 workers=2 backend=process status=no_solution time=0.0007s nodes=15 (2.16e+04/s) tasks=0 rss_parent=14MB rss_worker_max=10MB verified=False
+n=3 workers=2 backend=process status=found time=0.0115s nodes=106 (9.21e+03/s) tasks=56 rss_parent=14MB rss_worker_max=11MB verified=True
+    2   7   6
+    9   5   1
+    4   3   8
+n=4 workers=2 backend=process status=found time=0.0239s nodes=16894 (7.08e+05/s) tasks=240 rss_parent=15MB rss_worker_max=11MB verified=True
+    1   2  16  15
+   13  14   4   3
+   12   7   9   6
+    8  11   5  10
+n=5 workers=2 backend=process status=found time=8.5513s nodes=3988236 (4.66e+05/s) tasks=600 rss_parent=16MB rss_worker_max=11MB verified=True
+    1   3  14  23  24
+   18  15   4   6  22
+   13  21  20   9   2
+   25   7  11  17   5
+    8  19  16  10  12
+n=6 workers=2 backend=process status=timeout time=120.0201s nodes=56870913 (4.74e+05/s) tasks=36 rss_parent=16MB rss_worker_max=12MB verified=False
+  timeout reached; larger sizes will not be attempted
+n=1 workers=4 backend=process status=found time=0.0086s nodes=1 (116/s) tasks=1 rss_parent=14MB rss_worker_max=11MB verified=True
+    1
+n=2 workers=4 backend=process status=no_solution time=0.0011s nodes=15 (1.34e+04/s) tasks=0 rss_parent=14MB rss_worker_max=11MB verified=False
+n=3 workers=4 backend=process status=found time=0.0341s nodes=262 (7.69e+03/s) tasks=212 rss_parent=14MB rss_worker_max=11MB verified=True
+    2   7   6
+    9   5   1
+    4   3   8
+n=4 workers=4 backend=process status=found time=0.0314s nodes=26235 (8.35e+05/s) tasks=240 rss_parent=15MB rss_worker_max=11MB verified=True
+    1   3  14  16
+   10  13   4   7
+   15   6  11   2
+    8  12   5   9
+n=5 workers=4 backend=process status=found time=0.3288s nodes=264251 (8.04e+05/s) tasks=600 rss_parent=15MB rss_worker_max=12MB verified=True
+    1   2  21  17  24
+   12  19   4   8  22
+   23  18  11  10   3
+   13   6  14  25   7
+   16  20  15   5   9
+n=6 workers=4 backend=process status=timeout time=120.0255s nodes=67797030 (5.65e+05/s) tasks=1260 rss_parent=17MB rss_worker_max=12MB verified=False
+  timeout reached; larger sizes will not be attempted
+n=1 workers=4 backend=process status=found time=0.0090s nodes=1 (111/s) tasks=1 rss_parent=14MB rss_worker_max=11MB verified=True
+    1
+n=2 workers=4 backend=process status=no_solution time=0.0007s nodes=15 (2.06e+04/s) tasks=0 rss_parent=14MB rss_worker_max=11MB verified=False
+n=3 workers=4 backend=process status=found time=0.0370s nodes=255 (6.89e+03/s) tasks=212 rss_parent=15MB rss_worker_max=11MB verified=True
+    2   7   6
+    9   5   1
+    4   3   8
+n=4 workers=4 backend=process status=found time=0.0304s nodes=22272 (7.32e+05/s) tasks=240 rss_parent=15MB rss_worker_max=11MB verified=True
+    1   3  14  16
+   12  13   4   5
+   15   8   9   2
+    6  10   7  11
+n=5 workers=4 backend=process status=found time=109.5499s nodes=78463303 (7.16e+05/s) tasks=600 rss_parent=16MB rss_worker_max=11MB verified=True
+    1   4  25  19  16
+   11  20  12   9  13
+    8  18  15   7  17
+   22   2   3  24  14
+   23  21  10   6   5
+n=6 workers=4 backend=process status=timeout time=120.0207s nodes=117862438 (9.82e+05/s) tasks=1260 rss_parent=17MB rss_worker_max=12MB verified=False
+  timeout reached; larger sizes will not be attempted
+n=1 workers=4 backend=process status=found time=0.0088s nodes=1 (114/s) tasks=1 rss_parent=14MB rss_worker_max=11MB verified=True
+    1
+n=2 workers=4 backend=process status=no_solution time=0.0008s nodes=15 (1.84e+04/s) tasks=0 rss_parent=14MB rss_worker_max=11MB verified=False
+n=3 workers=4 backend=process status=found time=0.0342s nodes=276 (8.06e+03/s) tasks=212 rss_parent=14MB rss_worker_max=11MB verified=True
+    2   7   6
+    9   5   1
+    4   3   8
+n=4 workers=4 backend=process status=found time=0.0290s nodes=29849 (1.03e+06/s) tasks=240 rss_parent=15MB rss_worker_max=11MB verified=True
+    1   4  14  15
+   13  16   2   3
+   12   9   7   6
+    8   5  11  10
+n=5 workers=4 backend=process status=found time=71.3840s nodes=60763640 (8.51e+05/s) tasks=600 rss_parent=16MB rss_worker_max=12MB verified=True
+    1   5  10  24  25
+   23  15   4   3  20
+   19  13  17   9   7
+   16  14  12  21   2
+    6  18  22   8  11
+n=6 workers=4 backend=process status=timeout time=120.0236s nodes=101376038 (8.45e+05/s) tasks=1260 rss_parent=17MB rss_worker_max=12MB verified=False
+  timeout reached; larger sizes will not be attempted
+n=1 workers=4 backend=process status=found time=0.0085s nodes=1 (118/s) tasks=1 rss_parent=14MB rss_worker_max=11MB verified=True
+    1
+n=2 workers=4 backend=process status=no_solution time=0.0007s nodes=15 (2.24e+04/s) tasks=0 rss_parent=14MB rss_worker_max=11MB verified=False
+n=3 workers=4 backend=process status=found time=0.0345s nodes=254 (7.36e+03/s) tasks=212 rss_parent=15MB rss_worker_max=11MB verified=True
+    2   7   6
+    9   5   1
+    4   3   8
+n=4 workers=4 backend=process status=found time=0.0386s nodes=45899 (1.19e+06/s) tasks=240 rss_parent=15MB rss_worker_max=11MB verified=True
+    1   4  14  15
+   13  16   2   3
+    8   5  11  10
+   12   9   7   6
+n=5 workers=4 backend=process status=found time=24.7877s nodes=30389080 (1.23e+06/s) tasks=600 rss_parent=16MB rss_worker_max=12MB verified=True
+    1   4  14  21  25
+   23  24   2   6  10
+   20   7  15   5  18
+   13  11  22  16   3
+    8  19  12  17   9
+n=6 workers=4 backend=process status=timeout time=120.0200s nodes=110254118 (9.19e+05/s) tasks=1260 rss_parent=17MB rss_worker_max=12MB verified=False
+  timeout reached; larger sizes will not be attempted
+n=1 workers=4 backend=process status=found time=0.0081s nodes=1 (123/s) tasks=1 rss_parent=14MB rss_worker_max=11MB verified=True
+    1
+n=2 workers=4 backend=process status=no_solution time=0.0007s nodes=15 (2.01e+04/s) tasks=0 rss_parent=14MB rss_worker_max=11MB verified=False
+n=3 workers=4 backend=process status=found time=0.0333s nodes=254 (7.63e+03/s) tasks=212 rss_parent=15MB rss_worker_max=11MB verified=True
+    2   7   6
+    9   5   1
+    4   3   8
+n=4 workers=4 backend=process status=found time=0.0307s nodes=27498 (8.96e+05/s) tasks=240 rss_parent=15MB rss_worker_max=11MB verified=True
+    1   4  15  14
+   13  16   3   2
+   12   9   6   7
+    8   5  10  11
+n=5 workers=4 backend=process status=found time=9.3286s nodes=11084556 (1.19e+06/s) tasks=600 rss_parent=16MB rss_worker_max=11MB verified=True
+    1   3  14  23  24
+   18  15   4   6  22
+   13  21  20   9   2
+   25   7  11  17   5
+    8  19  16  10  12
+n=6 workers=4 backend=process status=timeout time=120.0188s nodes=124409894 (1.04e+06/s) tasks=1260 rss_parent=17MB rss_worker_max=12MB verified=False
+  timeout reached; larger sizes will not be attempted
+n=1 workers=8 backend=process status=found time=0.0120s nodes=1 (83.3/s) tasks=1 rss_parent=14MB rss_worker_max=10MB verified=True
+    1
+n=2 workers=8 backend=process status=no_solution time=0.0008s nodes=15 (1.97e+04/s) tasks=0 rss_parent=14MB rss_worker_max=10MB verified=False
+n=3 workers=8 backend=process status=found time=0.0404s nodes=291 (7.2e+03/s) tasks=212 rss_parent=14MB rss_worker_max=11MB verified=True
+    2   7   6
+    9   5   1
+    4   3   8
+n=4 workers=8 backend=process status=found time=0.0400s nodes=46718 (1.17e+06/s) tasks=240 rss_parent=15MB rss_worker_max=11MB verified=True
+    1   8  15  10
+   13  12   3   6
+    4   5  14  11
+   16   9   2   7
+n=5 workers=8 backend=process status=found time=0.4916s nodes=516155 (1.05e+06/s) tasks=600 rss_parent=15MB rss_worker_max=12MB verified=True
+    1   2  21  17  24
+   12  19   4   8  22
+   23  18  11  10   3
+   13   6  14  25   7
+   16  20  15   5   9
+n=6 workers=8 backend=process status=timeout time=120.0225s nodes=116946982 (9.74e+05/s) tasks=1260 rss_parent=17MB rss_worker_max=12MB verified=False
+  timeout reached; larger sizes will not be attempted
+n=1 workers=8 backend=process status=found time=0.0141s nodes=1 (70.9/s) tasks=1 rss_parent=14MB rss_worker_max=11MB verified=True
+    1
+n=2 workers=8 backend=process status=no_solution time=0.0008s nodes=15 (1.97e+04/s) tasks=0 rss_parent=14MB rss_worker_max=11MB verified=False
+n=3 workers=8 backend=process status=found time=0.0413s nodes=276 (6.69e+03/s) tasks=212 rss_parent=15MB rss_worker_max=11MB verified=True
+    2   7   6
+    9   5   1
+    4   3   8
+n=4 workers=8 backend=process status=found time=0.0398s nodes=41179 (1.04e+06/s) tasks=240 rss_parent=15MB rss_worker_max=11MB verified=True
+    1   3  14  16
+   12  13   4   5
+   15   8   9   2
+    6  10   7  11
+n=5 workers=8 backend=process status=found time=5.9657s nodes=7502184 (1.26e+06/s) tasks=600 rss_parent=15MB rss_worker_max=11MB verified=True
+    1   6  10  23  25
+   18  24   4   2  17
+   14   8  21  15   7
+   20   5  11  16  13
+   12  22  19   9   3
+n=6 workers=8 backend=process status=timeout time=120.0315s nodes=142264358 (1.19e+06/s) tasks=1260 rss_parent=17MB rss_worker_max=12MB verified=False
+  timeout reached; larger sizes will not be attempted
+n=1 workers=8 backend=process status=found time=0.0119s nodes=1 (84.3/s) tasks=1 rss_parent=14MB rss_worker_max=11MB verified=True
+    1
+n=2 workers=8 backend=process status=no_solution time=0.0007s nodes=15 (2.1e+04/s) tasks=0 rss_parent=14MB rss_worker_max=11MB verified=False
+n=3 workers=8 backend=process status=found time=0.0405s nodes=263 (6.5e+03/s) tasks=212 rss_parent=15MB rss_worker_max=11MB verified=True
+    2   7   6
+    9   5   1
+    4   3   8
+n=4 workers=8 backend=process status=found time=0.0479s nodes=56473 (1.18e+06/s) tasks=240 rss_parent=15MB rss_worker_max=11MB verified=True
+    1   4  14  15
+   13  16   2   3
+   12   9   7   6
+    8   5  11  10
+n=5 workers=8 backend=process status=found time=25.9010s nodes=35990512 (1.39e+06/s) tasks=600 rss_parent=16MB rss_worker_max=12MB verified=True
+    1   8  18  16  22
+   11  21  20   7   6
+   13  12  14   2  24
+   23   5   3  25   9
+   17  19  10  15   4
+n=6 workers=8 backend=process status=timeout time=120.0242s nodes=137205798 (1.14e+06/s) tasks=1260 rss_parent=17MB rss_worker_max=12MB verified=False
+  timeout reached; larger sizes will not be attempted
+n=1 workers=8 backend=process status=found time=0.0108s nodes=1 (92.4/s) tasks=1 rss_parent=14MB rss_worker_max=11MB verified=True
+    1
+n=2 workers=8 backend=process status=no_solution time=0.0009s nodes=15 (1.7e+04/s) tasks=0 rss_parent=14MB rss_worker_max=11MB verified=False
+n=3 workers=8 backend=process status=found time=0.0444s nodes=279 (6.28e+03/s) tasks=212 rss_parent=15MB rss_worker_max=11MB verified=True
+    2   7   6
+    9   5   1
+    4   3   8
+n=4 workers=8 backend=process status=found time=0.0604s nodes=84744 (1.4e+06/s) tasks=240 rss_parent=15MB rss_worker_max=11MB verified=True
+    1   6  15  12
+   11  16   5   2
+   14   9   4   7
+    8   3  10  13
+n=5 workers=8 backend=process status=found time=38.9486s nodes=58026840 (1.49e+06/s) tasks=600 rss_parent=16MB rss_worker_max=12MB verified=True
+    1   4  14  21  25
+   23  24   2   6  10
+   20   7  15   5  18
+   13  11  22  16   3
+    8  19  12  17   9
+n=6 workers=8 backend=process status=timeout time=120.0313s nodes=138287142 (1.15e+06/s) tasks=1260 rss_parent=17MB rss_worker_max=12MB verified=False
+  timeout reached; larger sizes will not be attempted
+n=1 workers=8 backend=process status=found time=0.0112s nodes=1 (89.3/s) tasks=1 rss_parent=14MB rss_worker_max=10MB verified=True
+    1
+n=2 workers=8 backend=process status=no_solution time=0.0007s nodes=15 (2.3e+04/s) tasks=0 rss_parent=14MB rss_worker_max=10MB verified=False
+n=3 workers=8 backend=process status=found time=0.0342s nodes=254 (7.42e+03/s) tasks=212 rss_parent=15MB rss_worker_max=11MB verified=True
+    2   7   6
+    9   5   1
+    4   3   8
+n=4 workers=8 backend=process status=found time=0.0371s nodes=41342 (1.11e+06/s) tasks=240 rss_parent=15MB rss_worker_max=11MB verified=True
+    1   4  15  14
+   13  16   3   2
+   12   9   6   7
+    8   5  10  11
+n=5 workers=8 backend=process status=found time=14.9031s nodes=19221260 (1.29e+06/s) tasks=600 rss_parent=16MB rss_worker_max=12MB verified=True
+    1   3  14  23  24
+   18  15   4   6  22
+   13  21  20   9   2
+   25   7  11  17   5
+    8  19  16  10  12
+n=6 workers=8 backend=process status=timeout time=120.0360s nodes=152369190 (1.27e+06/s) tasks=1260 rss_parent=17MB rss_worker_max=12MB verified=False
+  timeout reached; larger sizes will not be attempted
+median time to first solution [s] (solved/attempts) and median nodes
+  workers=1 n=1: T=2.6e-05s nodes=1 (5/5) rss_worker=0MB
+  workers=1 n=2: unsolved in budget (0/5)
+  workers=1 n=3: T=0.000155s nodes=26 (5/5) rss_worker=0MB
+  workers=1 n=4: T=0.02928s nodes=1.49e+04 (5/5) rss_worker=0MB
+  workers=1 n=5: T=1.1s nodes=4.84e+05 (3/5) rss_worker=0MB
+  workers=1 n=6: unsolved in budget (0/3)
+  workers=2 n=1: T=0.006003s nodes=1 (5/5) rss_worker=11MB
+  workers=2 n=2: unsolved in budget (0/5)
+  workers=2 n=3: T=0.01209s nodes=106 (5/5) rss_worker=11MB
+  workers=2 n=4: T=0.02388s nodes=1.69e+04 (5/5) rss_worker=11MB
+  workers=2 n=5: T=34.47s nodes=1.48e+07 (4/5) rss_worker=11MB
+  workers=2 n=6: unsolved in budget (0/4)
+  workers=4 n=1: T=0.008595s nodes=1 (5/5) rss_worker=11MB
+  workers=4 n=2: unsolved in budget (0/5)
+  workers=4 n=3: T=0.03425s nodes=255 (5/5) rss_worker=11MB
+  workers=4 n=4: T=0.03069s nodes=2.75e+04 (5/5) rss_worker=11MB
+  workers=4 n=5: T=24.79s nodes=3.04e+07 (5/5) rss_worker=12MB
+  workers=4 n=6: unsolved in budget (0/5)
+  workers=8 n=1: T=0.01186s nodes=1 (5/5) rss_worker=11MB
+  workers=8 n=2: unsolved in budget (0/5)
+  workers=8 n=3: T=0.04045s nodes=276 (5/5) rss_worker=11MB
+  workers=8 n=4: T=0.03997s nodes=4.67e+04 (5/5) rss_worker=11MB
+  workers=8 n=5: T=14.9s nodes=1.92e+07 (5/5) rss_worker=12MB
+  workers=8 n=6: unsolved in budget (0/5)
+
+fit (workers=1): log10 T = -7.833 + 1.575 n   R^2=1.000   (growth x37.6 per +1 in n)
+  WARNING: <3 solved sizes -> R^2 is meaningless; treat the extrapolation as a rough guess
+predicted largest n within 3600s: n ~ 7.2
+
+speed-up vs 1 worker (median time ratio):
+  n=4: w=2: x1.23  w=4: x0.95  w=8: x0.73
+  n=5: w=2: x0.03  w=4: x0.04  w=8: x0.07

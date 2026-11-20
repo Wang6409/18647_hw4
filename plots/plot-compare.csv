@@ -1,0 +1,22 @@
+method,n,median_seconds
+Part 1 brute force (C++/OpenMP),1,0.000144841
+Part 1 brute force (C++/OpenMP),3,0.000356048
+Part 1 brute force (C++/OpenMP),4,70.580655929
+"Part 2 backtracking (Python, 8 procs)",1,0.011864
+"Part 2 backtracking (Python, 8 procs)",3,0.040455
+"Part 2 backtracking (Python, 8 procs)",4,0.039973
+"Part 2 backtracking (Python, 8 procs)",5,14.903107
+Part 3 CP-SAT (OR-Tools),1,0.004429
+Part 3 CP-SAT (OR-Tools),3,0.004656
+Part 3 CP-SAT (OR-Tools),4,0.026849
+Part 3 CP-SAT (OR-Tools),5,0.090407
+Part 3 CP-SAT (OR-Tools),6,0.147423
+Part 3 CP-SAT (OR-Tools),7,0.284367
+Part 3 CP-SAT (OR-Tools),8,0.649394
+Part 3 CP-SAT (OR-Tools),9,1.196804
+Part 3 CP-SAT (OR-Tools),10,2.194785
+Part 3 CP-SAT (OR-Tools),11,4.892849
+Part 3 CP-SAT (OR-Tools),12,22.564746
+Part 3 CP-SAT (OR-Tools),13,10.952192
+Part 3 CP-SAT (OR-Tools),14,81.66027199999999
+Part 3 CP-SAT (OR-Tools),15,103.650376
