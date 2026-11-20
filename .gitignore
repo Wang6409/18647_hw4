@@ -1,3 +1,11 @@
+part1/README.md
+part2/README.md
+part3/README.md
+part3/src/18647
+plots/*.png
+HW4.pdf
+*.pptx
+*.zip
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]

@@ -1,0 +1,123 @@
+(18647) E:\CMU\3rd_semester\18647\HWs\647_hw4\part3\src>python cp_sat_magic.py --min-n 1 --max-n 20 --workers 16 --timeout 120 --repeat 3 --csv ..\..\plots\plot-part3.csv
+n=1 workers=16 status=OPTIMAL solve=0.0065s build=0.0005s branches=0 conflicts=0 verified=True
+    1
+n=1 workers=16 status=OPTIMAL solve=0.0036s build=0.0189s branches=0 conflicts=0 verified=True
+n=1 workers=16 status=OPTIMAL solve=0.0044s build=0.0003s branches=0 conflicts=0 verified=True
+n=2 workers=16 status=INFEASIBLE solve=0.0002s build=0.0004s branches=0 conflicts=0 verified=False
+n=2 workers=16 status=INFEASIBLE solve=0.0001s build=0.0003s branches=0 conflicts=0 verified=False
+n=2 workers=16 status=INFEASIBLE solve=0.0001s build=0.0003s branches=0 conflicts=0 verified=False
+n=3 workers=16 status=OPTIMAL solve=0.0059s build=0.0003s branches=0 conflicts=0 verified=True
+    2   9   4
+    7   5   3
+    6   1   8
+n=3 workers=16 status=OPTIMAL solve=0.0042s build=0.0004s branches=0 conflicts=0 verified=True
+n=3 workers=16 status=OPTIMAL solve=0.0047s build=0.0005s branches=0 conflicts=0 verified=True
+n=4 workers=16 status=OPTIMAL solve=0.0270s build=0.0005s branches=860 conflicts=8 verified=True
+    1  12  15   6
+   14   9   4   7
+    3   8  13  10
+   16   5   2  11
+n=4 workers=16 status=OPTIMAL solve=0.0268s build=0.0006s branches=847 conflicts=3 verified=True
+n=4 workers=16 status=OPTIMAL solve=0.0257s build=0.0005s branches=848 conflicts=3 verified=True
+n=5 workers=16 status=OPTIMAL solve=0.0627s build=0.0008s branches=2286 conflicts=0 verified=True
+   12   9  19   8  17
+   23  15  14   3  10
+    6  21   7  11  20
+    2  16  24  18   5
+   22   4   1  25  13
+n=5 workers=16 status=OPTIMAL solve=0.0912s build=0.0006s branches=8330 conflicts=237 verified=True
+n=5 workers=16 status=OPTIMAL solve=0.0904s build=0.0005s branches=8367 conflicts=250 verified=True
+n=6 workers=16 status=OPTIMAL solve=0.1404s build=0.0008s branches=4897 conflicts=25 verified=True
+   10  15  20  29  24  13
+   22  25   1  19  17  27
+   28   6  21  12  26  18
+    4   7  30  32  33   5
+   31  23   3  11   9  34
+   16  35  36   8   2  14
+n=6 workers=16 status=OPTIMAL solve=0.2057s build=0.0006s branches=16950 conflicts=32 verified=True
+n=6 workers=16 status=OPTIMAL solve=0.1474s build=0.0007s branches=16931 conflicts=22 verified=True
+n=7 workers=16 status=OPTIMAL solve=0.2148s build=0.0007s branches=9197 conflicts=4 verified=True
+   38  12  13  33  16  23  40
+   14  32  29  34  31  24  11
+   28  17  21  30  25  35  19
+   20  42  43   1  44  10  15
+   27   9  18  22   8  45  46
+    7  26  47   6  48  36   5
+   41  37   4  49   3   2  39
+n=7 workers=16 status=OPTIMAL solve=0.3336s build=0.0008s branches=32231 conflicts=108 verified=True
+n=7 workers=16 status=OPTIMAL solve=0.2844s build=0.0007s branches=32340 conflicts=116 verified=True
+n=8 workers=16 status=OPTIMAL solve=0.6736s build=0.0008s branches=56197 conflicts=506 verified=True
+    1  41  37  53  31  48  44   5
+   15  39  21   4  62  45  57  17
+   19  43  61   3  58  14  38  24
+   30  46  34  60  16  10  35  29
+   55  33  22  50  11  13  36  40
+   20  25  28  63  23  27  42  32
+   56  26  49   9  12  52   2  54
+   64   7   8  18  47  51   6  59
+n=8 workers=16 status=OPTIMAL solve=0.5155s build=0.0009s branches=15772 conflicts=14 verified=True
+n=8 workers=16 status=OPTIMAL solve=0.6494s build=0.0008s branches=56344 conflicts=217 verified=True
+n=9 workers=16 status=OPTIMAL solve=0.9354s build=0.0010s branches=25527 conflicts=36 verified=True
+   35  60  51  44  19  22  55  46  37
+   28  29  45  25  24  48  53  67  50
+   52  39  47  41  26  27  66  40  31
+   23  59  58  56  20  42  30  63  18
+   32  21  65  33  57  16  69  15  61
+   14  64  13  43  71  68   9  17  70
+   72  10  11  73  74  54   7   6  62
+   75   8  76   5  77  12  78  34   4
+   38  79   3  49   1  80   2  81  36
+n=9 workers=16 status=OPTIMAL solve=1.1968s build=0.0010s branches=90799 conflicts=300 verified=True
+n=9 workers=16 status=OPTIMAL solve=1.2474s build=0.0011s branches=90764 conflicts=766 verified=True
+n=10 workers=16 status=OPTIMAL solve=2.1948s build=0.0012s branches=140149 conflicts=697 verified=True
+    4  15  99  97  80  82  27  77  19   5
+   83  79   1  96  89  31   6  12  18  90
+   58  69  75   8  30  53  34  95  33  50
+   66  57  78  46  25  37  74  39  36  47
+   67  71  68   7  26  94  38  11  81  42
+   60  52  49  41  92  45  72  22  32  40
+   63  76  51  20  28   3  61  62  54  87
+   13   2   9  73  98  17 100  64  85  44
+   48  55  10  24  21  59  23  88  91  86
+   43  29  65  93  16  84  70  35  56  14
+n=10 workers=16 status=OPTIMAL solve=2.4204s build=0.0012s branches=140149 conflicts=697 verified=True
+n=10 workers=16 status=OPTIMAL solve=2.1917s build=0.0023s branches=137869 conflicts=575 verified=True
+n=11 workers=16 status=OPTIMAL solve=10.3337s build=0.0030s branches=238104 conflicts=20361 verified=True
+   13  62  90 119  88  25  26  89  67  78  14
+   72   1  48 107  66  35  87  65  27 114  49
+   41 113  24 120  40  83 100  44   7  29  70
+   47  68  51  45  34  58  84  53 102  55  74
+  118 108   6 110 117   4  18   5  15  59 111
+   39 121  50  60  37  96  85  52  32  30  69
+   99   8  38   3 116  63  80  71  94  43  56
+   79  10  81  16  64  97  31  42 101  77  73
+   19  95 115  61  22 106  21 104  91  20  17
+   98  76  86   2  75  93  36  92  23  57  33
+   46   9  82  28  12  11 103  54 112 109 105
+n=11 workers=16 status=OPTIMAL solve=4.8928s build=0.0020s branches=191444 conflicts=1529 verified=True
+n=11 workers=16 status=OPTIMAL solve=3.7880s build=0.0019s branches=187230 conflicts=450 verified=True
+n=12 workers=16 status=OPTIMAL solve=22.5647s build=0.0019s branches=284436 conflicts=26397 verified=True
+    1 135 106 125  72 117 139  68  23  28  49   7
+  104 109  58  11 112  27   4  70 108  78  92  97
+  120 121  73 118   5  69  93  40 107  88   2  34
+  137  63  47  57 136  71  51  48 133 102  10  15
+   86  20  79  31 128  37 138 123  46  43  44  95
+   67  55  62 122  13  36 134  30  75  56  80 140
+   65  53  81  96  77  91  59  33  32  54 126 103
+  144  45 127 131  39  66 143  41  12  52  64   6
+   14 114  98   9 111 115  29  89  99  18 124  50
+   82   3  16  90  84 110  35  83  60 100 113  94
+   42 130  85  19  17 105  24 116 101 119  25  87
+    8  22  38  61  76  26  21 129  74 132 141 142
+n=12 workers=16 status=OPTIMAL solve=46.3121s build=0.0023s branches=295061 conflicts=37460 verified=True
+n=12 workers=16 status=OPTIMAL solve=20.8889s build=0.0017s branches=290737 conflicts=26108 verified=True
+n=13 workers=16 status=OPTIMAL solve=11.0662s build=0.0020s branches=204499 conflicts=3786 verified=True
+n=13 workers=16 status=OPTIMAL solve=10.9522s build=0.0030s branches=204499 conflicts=3786 verified=True
+n=13 workers=16 status=OPTIMAL solve=10.9455s build=0.0018s branches=204499 conflicts=3786 verified=True
+n=14 workers=16 status=UNKNOWN solve=120.6944s build=0.0022s branches=851088 conflicts=192152 verified=False
+n=14 workers=16 status=OPTIMAL solve=94.5756s build=0.0032s branches=815995 conflicts=282340 verified=True
+n=14 workers=16 status=OPTIMAL solve=68.7449s build=0.0027s branches=664252 conflicts=77375 verified=True
+n=15 workers=16 status=UNKNOWN solve=120.9177s build=0.0028s branches=897728 conflicts=218636 verified=False
+n=15 workers=16 status=OPTIMAL solve=103.6504s build=0.0029s branches=641894 conflicts=75285 verified=True
+n=15 workers=16 status=UNKNOWN solve=121.1905s build=0.0027s branches=380814 conflicts=197935 verified=False
+  timeout reached; larger sizes will not be attempted
